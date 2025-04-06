@@ -20,7 +20,7 @@ os.environ["OPENAI_API_KEY"] = api_key
 
 class ingest:
     """
-    Ingestor class for loading documents from MongoDB, chunking them, embedding them, and storing them in ChromaDB
+    Ingestor class for loading documents chunking them, embedding them, and storing them in ChromaDB
     """
 
     def __init__(self, collection_name, path):
