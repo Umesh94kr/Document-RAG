@@ -3,7 +3,7 @@
 Setup Instructions
 1) Clone the repository : git clone https://github.com/Umesh94kr/Document-RAG
 2) Install requirements and packages : pip install requirements.txt
-3) In ingest_docs.py just change client path from 'path/ChromaDB'
+3) In ingest_docs.py just change client path 'path/ChromaDB'
 4) In .env provide your api_key
 5) run main.py
 
